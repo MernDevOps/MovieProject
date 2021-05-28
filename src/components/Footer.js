@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/style.css';
+import '../css/Footer.css';
 import {
 	AiOutlineFacebook,
 	AiOutlineInstagram,

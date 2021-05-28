@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/Header.css";
 import {
   FaPlusCircle,
   FaSearch,
@@ -8,13 +9,14 @@ import {
   FaMoneyBillWaveAlt,
   FaSignOutAlt,
 } from "react-icons/fa";
-import "../css/style.css";
+
 
 export const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-center fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-md justify-content-center fixed-top">
         <div class="container">
+		  
           <a href="/" class="navbar-brand d-flex w-50 me-auto">
             Movied
           </a>
@@ -78,8 +80,7 @@ export const Header = () => {
                       Privacy-Policy
                     </a>
                   </li>
-                  
-                </ul>
+                 </ul>
               </li>
 
               <li class="nav-item"></li>
@@ -88,11 +89,6 @@ export const Header = () => {
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <FaPlusCircle />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <FaSearch />
                 </a>
               </li>
               <li class="nav-item dropdown">
@@ -104,10 +100,40 @@ export const Header = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
+                  <FaSearch />
+                </a>
+                <div class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-search animated fadeInUp">
+                  <form class="px-4 py-3 search-form ">
+                    <div class="form-group ">
+                      {/* <label for="exampleDropdownFormEmail1">Search</label> */}
+                      <input
+                        class="form-control mr-sm-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                    </div>
+
+                    <button type="submit" class="btn btn-dark">
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   <FaBell />
                 </a>
+
                 <ul
-                  class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-bell "
+                  class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-bell animated fadeInUp "
                   aria-labelledby="navbarScrollingDropdown"
                 >
                   <li>

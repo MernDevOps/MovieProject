@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../css/style.css';
+import '../../../css/ContactUs.css';
 import { BiEnvelope, BiPhoneCall } from 'react-icons/bi';
 
 const ContactUs = () => {
