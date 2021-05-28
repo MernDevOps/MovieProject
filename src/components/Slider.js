@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/style.css";
+import "./Slider.css";
 
 import { FaStar, FaStarHalf } from "react-icons/fa";
 
@@ -103,10 +103,10 @@ export const Slider = () => {
               className="d-flex align-items-center r-mb-23 fadeInUp animated "
               style={{ animationDelay: 1.2 + "s" }}
             >
-              <a href="#" className="play-now">
+              <a href="" className="play-now">
                 PLAY NOW
               </a>
-              <a href="#" className="more-details">
+              <a href="" className="more-details">
                 More Details
               </a>
             </div>
@@ -135,24 +135,29 @@ export const Slider = () => {
           </div>
         </div>
       </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
       <button
         class="carousel-control-next"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span
+          class="carousel-control-next-icon arrow-icon"
+          aria-hidden="true"
+        ></span>
         <span class="visually-hidden">Next</span>
+      </button>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon arrow-icon"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
       </button>
     </div>
   );
