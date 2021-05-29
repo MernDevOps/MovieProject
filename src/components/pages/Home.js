@@ -1,13 +1,13 @@
 import React from 'react';
-import '../../css/style.css';
 import {Slider} from '../Slider';
 import {Parallax} from '../Parallax';
-
+import MovieSlider from '../MovieSlider';
 
 function Home() {
   return (
     <>
       <Slider />
+      <MovieSlider/>
       <Parallax />
       
     </>

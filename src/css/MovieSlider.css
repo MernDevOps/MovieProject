@@ -1,0 +1,207 @@
+.bg-img{
+    height: 160px;
+    width: 290px;
+    margin: 0px 0px;
+   }
+  
+  .bg-img>img{
+    height: 160px;
+    width: 295px;  
+   overflow: hidden;  
+  }
+  
+  .bg-img:hover{
+    transform: scale(1.10);
+    border-left-color: red;
+    border-left-width: 5px;
+    transition-duration: 0.5s;
+   /* -webkit-filter: brightness(10%);  */
+  }
+  
+  .container{
+    display:flex;
+    /*
+    position: absolute;
+      z-index: 2;
+      */
+    }
+  
+    .block-description{
+      padding-top: 35px;
+      padding-left: 26px;
+      /*
+      position: absolute;
+        z-index: 3;
+    */
+    }
+  
+  .play-button{
+    background-color:red;
+     border:none;
+    font-size: 13px;
+    letter-spacing: 1px; 
+    height: 35px;
+    width:120px;
+   }
+  
+  .play-button:hover{
+  background-color:rgb(230, 55, 55)  !important;
+  }
+  
+  .iq-view-all {
+    color:rgb(201, 200, 197);
+    margin-top: 0px;
+    padding:0px;
+    text-decoration: none !important;
+    transition-duration: 1s;
+  }
+  
+  .iq-view-all:hover {
+  color:red;
+  }
+  
+  .main-title{
+    color:white;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .favourite-contens{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .main-contens{
+    background-color: rgb(22, 22, 22);
+    position:relative;
+  }
+  
+  .iq-title{
+    color:rgba(255, 255, 255, 0.89);
+    transition-duration: 1s;
+    text-decoration: none !important;
+  }
+  
+  .iq-title:hover{
+    color:red;
+    
+  }
+  
+  
+  
+  .hover-button{
+    padding-top: 20px;
+  }
+  
+  
+  .playicon{
+    padding-right: 7px;
+    width: 18px;
+   }
+  
+  .badge-secondary {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.336);
+   
+  }
+  
+  .block-social-info{
+    margin-left:60px;
+    margin-top:30px;
+  }
+  
+  .share{
+    margin-bottom: 10px;
+  }
+  
+  .share-icon{
+  color:red;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 4px 8px;
+  background-color: white;
+  border:5px solid rgba(190, 190, 190, 0.712);
+  }
+  .share-icon:hover{
+    color:white;
+    background-color:red;
+  }
+  
+  .heart{
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .heart-icon{
+  color:red;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 4px 8px;
+  background-color: white;
+  border:5px solid rgba(190, 190, 190, 0.712);
+  }
+  .heart-icon:hover{
+    color:white;
+    background-color: red;
+  }
+  
+  .plus-icon{
+    color:red;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-bottom:2px;
+  padding: 4px 8px;
+  background-color: white;
+  border:5px solid rgba(190, 190, 190, 0.712);
+    }
+    
+    .plus-icon:hover{
+      color:white;
+      background-color: red;
+    }
+  
+  
+  .count-box{
+    font-size: 8px;
+    position: absolute;
+    padding: 1px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    right: 29px;
+    top:108px;
+  }
+  
+  .slick-slide {
+      margin: 0 10px;
+  }
+  /* the parent */
+  .slick-list {
+      margin: 0 -10px;
+  }
+  
+  .slick-slider {
+    overflow: hidden;
+  }
+  .share-box{
+    background-color:rgba(22, 22, 22, 0.836);
+    padding: 3px 12px;
+  }
+  .vsc{
+    color:white;
+    transition-duration: 0.5s;
+  }
+  .vsc:hover{
+    color:red;
+  }
+  
+  .ri{
+    color:white;
+    transition-duration: 0.5s;
+  }
+  .ri:hover{
+    color:red;
+  }
+  
+  .share-ico{
+    margin:5px;
+  }

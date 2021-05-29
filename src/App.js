@@ -26,6 +26,7 @@ function App() {
       <Route path="/Policies" component={Policies}><Policies /> </Route>
          
       </Switch>
+      
       <Footer /> 
     </Router>
     

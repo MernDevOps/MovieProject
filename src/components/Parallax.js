@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/style.css";
+import "../css/Parallax.css";
 import { FaStar, FaStarHalf } from "react-icons/fa";
 
 export const Parallax = () => {
@@ -13,7 +13,7 @@ export const Parallax = () => {
             style={{
               backgroundImage: `url(
                 "https://images2.alphacoders.com/851/thumb-1920-85182.jpg"
-              )`,
+              )`,              
             }}
           ></div>
           <div class="carousel-caption container-fluid d-block">

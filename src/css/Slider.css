@@ -1,47 +1,20 @@
-.parallax-window::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.8);
-}
-.parallax-window {
-  height: 100%;
-  padding: 100px 0;
-  position: relative;
-  background: url("https://picsum.photos/1920/1050?random=2") center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.parallax-img img {
-  box-shadow: 0px 20px 40px rgb(0 0 0 / 60%);
-}
-.carousel-caption {
-  position: absolute;
-  right: 0%;
-  bottom: 1.25rem;
-  left: 0%;
-  padding: 0 100px;
-  /* padding-top: 1.25rem;
-  padding-bottom: 1.25rem; */
-  color: #fff;
-  text-align: center;
-}
-
 /* Slider ArkaPlan */
-.slick-bg1::after {
-  position: absolute;
+.slick-bg::before {
   content: "";
+  position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.8);
-  /* z-index: 1; */
+  width: 90%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(20, 20, 20, 1) 35%,
+    rgba(83, 100, 141, 0) 100%
+  );
+  z-index: 1;
 }
-.slick-bg1 {
+.slick-bg {
   width: 100%;
   /* background: url("https://images2.alphacoders.com/851/thumb-1920-85182.jpg"); */
   background-size: cover;
@@ -50,8 +23,6 @@
   height: 100vh;
   position: relative;
   z-index: -1;
-  background-size: cover;
-  background-attachment: fixed;
 }
 /* Carusel Uzerindeki Yazilar */
 .carousel-item {
@@ -63,6 +34,7 @@
   top: 50%;
   transform: translateY(-50%);
   text-align: start;
+  padding: 0 100px !important;
 }
 .carousel-caption h5 {
   font-size: 4vw;
@@ -75,7 +47,7 @@
 .carousel-caption p {
   font-size: 16px;
   /* margin: auto; */
-  width: 83%;
+  width: 30% !important;
   /* margin-top: 25px; */
   line-height: 1.9;
 }
@@ -158,4 +130,27 @@
   cursor: pointer;
   z-index: 4;
   text-decoration: none;
+}
+.more-details:hover {
+  color: #e50914 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4% !important;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
 }
