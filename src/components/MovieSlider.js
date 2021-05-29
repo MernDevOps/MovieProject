@@ -63,47 +63,107 @@ export default class MovieSlider extends Component {
 
   <img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
 
-         <div className="container">
-                <div className="block-description">
+        <div className="container">
+        <div className="block-description">
 
-                  <h6 >
-                    <a className="iq-title" href="#" >Shadow</a>
-                  </h6>
+<h6 >
+  <a className="iq-title" href="#" >Shadow</a>
+</h6>
 
-                  <div className="movie-time">
-                    <span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
-                    <span className="text-white">2h 30m</span>
-                  </div>
+<div className="movie-time">
+  <span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+  <span className="text-white">2h 30m</span>
+</div>
 
-                  <div className="hover-button">
-                    <button type="button" class="btn btn-secondary rounded-0 play-button">
-                      <span className="playicon"> < IoMdPlay className="io" /></span>
-   PLAY NOW
-   </button>
-                  </div>
-                </div>
-                <div className="block-social-info">
-                  <ul class="list-inline p-0 m-0 music-play-lists">
-                    <li class="share">
-                      <span class="share-icon"><RiShareFill className="rishare" /></span>
-                      <div class="share-box">
-                        <div class="d-flex align-items-center">
-                          <a href="https://www.facebook.com/sharer?u=https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><RiFacebookFill className="ri" /></a>
-                          <a href="https://twitter.com/intent/tweet?text=Currentlyreading" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><VscTwitter className="vsc" /></a>
-                          <a href="#" data-link="https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" class="share-ico iq-copy-link" tabindex="0"><RiLinksFill className="ri" /></a>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="heart" ><span class="heart-icon "><AiFillHeart className /></span>
-                      <span class="count-box">19+</span></li>
-                    <li class="plus"><span class="plus-icon"><BsPlus /></span></li>
-                  </ul>
-                </div>
-                </div>
+<div className="hover-button">
+  <button type="button" class="btn btn-secondary rounded-0 play-button">
+    <span className="playicon"> < IoMdPlay className="io" /></span>
+PLAY NOW
+</button>
+</div>
+</div>
+
+
+<div className="block-social-info">
+<ul class="list-inline">
+  <li class="share">
+    <span class="share-icon"><RiShareFill className="rishare" /></span>
+    <div class="share-box">
+      <div class="d-flex align-items-center">
+        <a href="https://www.facebook.com/sharer?u=https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><RiFacebookFill className="ri" /></a>
+        <a href="https://twitter.com/intent/tweet?text=Currentlyreading" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><VscTwitter className="vsc" /></a>
+        <a href="#" data-link="https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" class="share-ico iq-copy-link" tabindex="0"><RiLinksFill className="ri" /></a>
+      </div>
+    </div>
+  </li>
+  <li class="heart" ><span class="heart-icon "><AiFillHeart className /></span>
+    <span class="count-box">19+</span></li>
+  <li class="plus"><span class="plus-icon"><BsPlus /></span></li>
+</ul>
+</div>
+
+        </div>
+           
             </div>
 
 
         
+
+
+
+
+
+
+
+
+            <div className="bg-img">
+
+
+<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+
+      <div className="container">
+      <div className="block-description">
+
+<h6 >
+<a className="iq-title" href="#" >Shadow</a>
+</h6>
+
+<div className="movie-time">
+<span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+<span className="text-white">2h 30m</span>
+</div>
+
+<div className="hover-button">
+<button type="button" class="btn btn-secondary rounded-0 play-button">
+  <span className="playicon"> < IoMdPlay className="io" /></span>
+PLAY NOW
+</button>
+</div>
+</div>
+
+
+<div className="block-social-info">
+<ul class="list-inline">
+<li class="share">
+  <span class="share-icon"><RiShareFill className="rishare" /></span>
+  <div class="share-box">
+    <div class="d-flex align-items-center">
+      <a href="https://www.facebook.com/sharer?u=https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><RiFacebookFill className="ri" /></a>
+      <a href="https://twitter.com/intent/tweet?text=Currentlyreading" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><VscTwitter className="vsc" /></a>
+      <a href="#" data-link="https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" class="share-ico iq-copy-link" tabindex="0"><RiLinksFill className="ri" /></a>
+    </div>
+  </div>
+</li>
+<li class="heart" ><span class="heart-icon "><AiFillHeart className /></span>
+  <span class="count-box">19+</span></li>
+<li class="plus"><span class="plus-icon"><BsPlus /></span></li>
+</ul>
+</div>
+
+      </div>
+         
+          </div>
+
 
      
         
@@ -115,6 +175,111 @@ export default class MovieSlider extends Component {
 
 
 
+          <div className="bg-img">
+
+
+<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+
+      <div className="container">
+      <div className="block-description">
+
+<h6 >
+<a className="iq-title" href="#" >Shadow</a>
+</h6>
+
+<div className="movie-time">
+<span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+<span className="text-white">2h 30m</span>
+</div>
+
+<div className="hover-button">
+<button type="button" class="btn btn-secondary rounded-0 play-button">
+  <span className="playicon"> < IoMdPlay className="io" /></span>
+PLAY NOW
+</button>
+</div>
+</div>
+
+
+<div className="block-social-info">
+<ul class="list-inline">
+<li class="share">
+  <span class="share-icon"><RiShareFill className="rishare" /></span>
+  <div class="share-box">
+    <div class="d-flex align-items-center">
+      <a href="https://www.facebook.com/sharer?u=https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><RiFacebookFill className="ri" /></a>
+      <a href="https://twitter.com/intent/tweet?text=Currentlyreading" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><VscTwitter className="vsc" /></a>
+      <a href="#" data-link="https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" class="share-ico iq-copy-link" tabindex="0"><RiLinksFill className="ri" /></a>
+    </div>
+  </div>
+</li>
+<li class="heart" ><span class="heart-icon "><AiFillHeart className /></span>
+  <span class="count-box">19+</span></li>
+<li class="plus"><span class="plus-icon"><BsPlus /></span></li>
+</ul>
+</div>
+
+      </div>
+         
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+          <div className="bg-img">
+
+
+<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+
+      <div className="container">
+      <div className="block-description">
+
+<h6 >
+<a className="iq-title" href="#" >Shadow</a>
+</h6>
+
+<div className="movie-time">
+<span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+<span className="text-white">2h 30m</span>
+</div>
+
+<div className="hover-button">
+<button type="button" class="btn btn-secondary rounded-0 play-button">
+  <span className="playicon"> < IoMdPlay className="io" /></span>
+PLAY NOW
+</button>
+</div>
+</div>
+
+
+<div className="block-social-info">
+<ul class="list-inline">
+<li class="share">
+  <span class="share-icon"><RiShareFill className="rishare" /></span>
+  <div class="share-box">
+    <div class="d-flex align-items-center">
+      <a href="https://www.facebook.com/sharer?u=https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><RiFacebookFill className="ri" /></a>
+      <a href="https://twitter.com/intent/tweet?text=Currentlyreading" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><VscTwitter className="vsc" /></a>
+      <a href="#" data-link="https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" class="share-ico iq-copy-link" tabindex="0"><RiLinksFill className="ri" /></a>
+    </div>
+  </div>
+</li>
+<li class="heart" ><span class="heart-icon "><AiFillHeart className /></span>
+  <span class="count-box">19+</span></li>
+<li class="plus"><span class="plus-icon"><BsPlus /></span></li>
+</ul>
+</div>
+
+      </div>
+         
+          </div>
 
 
 
@@ -129,26 +294,65 @@ export default class MovieSlider extends Component {
 
 
 
-        <div className="card slider" >
-          <img src="https://picsum.photos/536/354" className="card-img-top" alt="..."></img>
-        </div>
 
-        <div className="card slider" >
-          <img src="https://picsum.photos/536/354" className="card-img-top" alt="..."></img>
-        </div>
-        
-        <div className="card slider" >
-          <img src="https://picsum.photos/536/354" className="card-img-top" alt="..."></img>
-        </div>
-        
-        <div className="card slider" >
-          <img src="https://picsum.photos/536/354" className="card-img-top" alt="..."></img>
-        </div>
+
+
+
+
+
+            <div className="bg-img">
+
+
+<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+
+      <div className="container">
+      <div className="block-description">
+
+<h6 >
+<a className="iq-title" href="#" >Shadow</a>
+</h6>
+
+<div className="movie-time">
+<span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+<span className="text-white">2h 30m</span>
+</div>
+
+<div className="hover-button">
+<button type="button" class="btn btn-secondary rounded-0 play-button">
+  <span className="playicon"> < IoMdPlay className="io" /></span>
+PLAY NOW
+</button>
+</div>
+</div>
+
+
+<div className="block-social-info">
+<ul class="list-inline">
+<li class="share">
+  <span class="share-icon"><RiShareFill className="rishare" /></span>
+  <div class="share-box">
+    <div class="d-flex align-items-center">
+      <a href="https://www.facebook.com/sharer?u=https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><RiFacebookFill className="ri" /></a>
+      <a href="https://twitter.com/intent/tweet?text=Currentlyreading" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><VscTwitter className="vsc" /></a>
+      <a href="#" data-link="https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" class="share-ico iq-copy-link" tabindex="0"><RiLinksFill className="ri" /></a>
+    </div>
+  </div>
+</li>
+<li class="heart" ><span class="heart-icon "><AiFillHeart className /></span>
+  <span class="count-box">19+</span></li>
+<li class="plus"><span class="plus-icon"><BsPlus /></span></li>
+</ul>
+</div>
+
+      </div>
+         
+          </div>
+
+
+
+       
       
-      
-        <div className="card slider" >
-          <img src="https://picsum.photos/536/354" className="card-img-top" alt="..."></img>
-        </div>
+       
       </Slider>
      
       </div>

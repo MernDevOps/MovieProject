@@ -10,22 +10,25 @@
    overflow: hidden;  
   }
   
-  .bg-img:hover{
+  .bg-img:hover {
     transform: scale(1.10);
     border-left-color: red;
     border-left-width: 5px;
     transition-duration: 0.5s;
    /* -webkit-filter: brightness(10%);  */
+  
   }
+
   
   .container{
     display:flex;
-    /*
-    position: absolute;
+    
+  /* position: relative;*/
       z-index: 2;
-      */
-    }
-  
+    
+      margin-top: -160px;
+    
+  }
     .block-description{
       padding-top: 35px;
       padding-left: 26px;
@@ -33,6 +36,7 @@
       position: absolute;
         z-index: 3;
     */
+   
     }
   
   .play-button{
@@ -106,14 +110,26 @@
   }
   
   .block-social-info{
-    margin-left:60px;
-    margin-top:30px;
+    padding-left: 50px;
+    line-height:2.2 ;
+  }
+  .list-inline{
+    padding:20px;
+  }
+
+  .share:hover .share-box{
+    display: block;
+   
   }
   
-  .share{
-    margin-bottom: 10px;
+  .share-box{
+    background-color:rgba(22, 22, 22, 0.836);
+    margin-top: -40px !important;
+    margin-left: -90px !important;
+    width: 90px;
+    height: 40px;
+    display: none;
   }
-  
   .share-icon{
   color:red;
   cursor: pointer;
@@ -126,6 +142,7 @@
     color:white;
     background-color:red;
   }
+  
   
   .heart{
     margin-top: 10px;
@@ -182,10 +199,7 @@
   .slick-slider {
     overflow: hidden;
   }
-  .share-box{
-    background-color:rgba(22, 22, 22, 0.836);
-    padding: 3px 12px;
-  }
+  
   .vsc{
     color:white;
     transition-duration: 0.5s;
@@ -205,3 +219,4 @@
   .share-ico{
     margin:5px;
   }
+
