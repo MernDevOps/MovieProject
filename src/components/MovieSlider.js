@@ -71,7 +71,7 @@ export default class MovieSlider extends Component {
 </h6>
 
 <div className="movie-time">
-  <span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+  <span className="badge badge-secondary rounded-0 ">18+</span>
   <span className="text-white">2h 30m</span>
 </div>
 
@@ -119,17 +119,17 @@ PLAY NOW
             <div className="bg-img">
 
 
-<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+<img src="	http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/03.jpg"></img>
 
       <div className="container">
       <div className="block-description">
 
 <h6 >
-<a className="iq-title" href="#" >Shadow</a>
+<a className="iq-title" href="#" >Boop Pitty</a>
 </h6>
 
 <div className="movie-time">
-<span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+<span className="badge badge-secondary p-1 mr-2 rounded-0 ">15+</span>
 <span className="text-white">2h 30m</span>
 </div>
 
@@ -178,18 +178,18 @@ PLAY NOW
           <div className="bg-img">
 
 
-<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/04.png"></img>
 
       <div className="container">
       <div className="block-description">
 
 <h6 >
-<a className="iq-title" href="#" >Shadow</a>
+<a className="iq-title" href="#" >Dino Land</a>
 </h6>
 
 <div className="movie-time">
 <span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
-<span className="text-white">2h 30m</span>
+<span className="text-white">3 seasons</span>
 </div>
 
 <div className="hover-button">
@@ -222,31 +222,21 @@ PLAY NOW
       </div>
          
           </div>
-
-
-
-
-
-
-
-
-
-
 
           <div className="bg-img">
 
 
-<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/01.jpg"></img>
 
       <div className="container">
       <div className="block-description">
 
 <h6 >
-<a className="iq-title" href="#" >Shadow</a>
+<a className="iq-title" href="#" >The Last Breath</a>
 </h6>
 
 <div className="movie-time">
-<span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
+<span className="badge badge-secondary p-1 mr-2 rounded-0 ">5+</span>
 <span className="text-white">2h 30m</span>
 </div>
 
@@ -264,7 +254,7 @@ PLAY NOW
 <li class="share">
   <span class="share-icon"><RiShareFill className="rishare" /></span>
   <div class="share-box">
-    <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center ">
       <a href="https://www.facebook.com/sharer?u=https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><RiFacebookFill className="ri" /></a>
       <a href="https://twitter.com/intent/tweet?text=Currentlyreading" target="_blank" rel="noopener noreferrer" class="share-ico" tabindex="0"><VscTwitter className="vsc" /></a>
       <a href="#" data-link="https://iqonic.design/wp-themes/streamit_wp/movie/shadow/" class="share-ico iq-copy-link" tabindex="0"><RiLinksFill className="ri" /></a>
@@ -281,40 +271,21 @@ PLAY NOW
          
           </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div className="bg-img">
 
 
-<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
+<img src="http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/02.jpg"></img>
 
       <div className="container">
       <div className="block-description">
 
 <h6 >
-<a className="iq-title" href="#" >Shadow</a>
+<a className="iq-title" href="#" >Last Race</a>
 </h6>
 
 <div className="movie-time">
-<span className="badge badge-secondary p-1 mr-2 rounded-0 ">18+</span>
-<span className="text-white">2h 30m</span>
+<span className="badge badge-secondary p-1 mr-2 rounded-0 ">7+</span>
+<span className="text-white">2 seasons</span>
 </div>
 
 <div className="hover-button">

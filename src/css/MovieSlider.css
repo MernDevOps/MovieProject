@@ -1,12 +1,12 @@
 .bg-img{
-    height: 160px;
+    height: 165px;
     width: 290px;
     margin: 0px 0px;
    }
   
   .bg-img>img{
-    height: 160px;
-    width: 295px;  
+    height: 165px;
+    width: 290px;  
    overflow: hidden;  
   }
   
@@ -105,10 +105,9 @@
   
   .badge-secondary {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.336);
-   
+    background-color: rgba(0, 0, 0, 0.486);
   }
-  
+
   .block-social-info{
     padding-left: 50px;
     line-height:2.2 ;
@@ -116,7 +115,9 @@
   .list-inline{
     padding:20px;
   }
-
+.share{
+  margin-top: -4px;
+}
   .share:hover .share-box{
     display: block;
    
@@ -130,6 +131,7 @@
     height: 40px;
     display: none;
   }
+ 
   .share-icon{
   color:red;
   cursor: pointer;
@@ -145,8 +147,9 @@
   
   
   .heart{
-    margin-top: 10px;
-    padding-top: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
   }
   .heart-icon{
   color:red;
@@ -161,6 +164,10 @@
     background-color: red;
   }
   
+  .plus{
+    margin-top: 5px;
+    padding-top: 5px;
+  }
   .plus-icon{
     color:red;
   cursor: pointer;
@@ -180,12 +187,11 @@
   .count-box{
     font-size: 8px;
     position: absolute;
-    padding: 1px;
     border-radius: 50%;
     background: red;
     color: white;
-    right: 29px;
-    top:108px;
+    right: 26px;
+    
   }
   
   .slick-slide {
