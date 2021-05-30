@@ -2,6 +2,7 @@
     height: 165px;
     width: 290px;
     margin: 0px 0px;
+    
    }
   
   .bg-img>img{
@@ -12,25 +13,24 @@
   
   .bg-img:hover {
     transform: scale(1.10);
-    border-left-color: red;
+    border-left-color: red !important;
     border-left-width: 5px;
     transition-duration: 0.5s;
-   /* -webkit-filter: brightness(10%);  */
+    /*-webkit-filter: brightness(10%);*/
   
+  }
+  .bg-img:hover .block-social-info{
+    display: block;
   }
 
-  
   .container{
     display:flex;
-    
   /* position: relative;*/
-      z-index: 2;
-    
+     /* z-index: 2;*/
       margin-top: -160px;
-    
   }
     .block-description{
-      padding-top: 35px;
+      padding-top: 25px;
       padding-left: 26px;
       /*
       position: absolute;
@@ -38,7 +38,7 @@
     */
    
     }
-  
+
   .play-button{
     background-color:red;
      border:none;
@@ -111,6 +111,7 @@
   .block-social-info{
     padding-left: 50px;
     line-height:2.2 ;
+    display: none;
   }
   .list-inline{
     padding:20px;

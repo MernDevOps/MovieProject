@@ -107,15 +107,6 @@ PLAY NOW
             </div>
 
 
-        
-
-
-
-
-
-
-
-
             <div className="bg-img">
 
 
