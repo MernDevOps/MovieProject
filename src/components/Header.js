@@ -13,7 +13,7 @@ import "./Header.css";
 export const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-dark navbar-expand-md justify-content-center fixed-top">
+      <nav class="navbar navbar-dark  navbar-expand-lg justify-content-center fixed-top">
         <div class="container">
           <a href="/" class="navbar-brand d-flex w-50 me-auto">
             Movied
