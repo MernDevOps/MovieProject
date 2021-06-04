@@ -1,0 +1,146 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+  } */
+  
+  button {
+    border: none;
+    outline: none;
+    width: 25%;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #ac0303;
+    cursor: pointer;
+  }
+  
+  .login {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 2px;
+    /* background: url("http://iqonic.design/themes/streamitnew/frontend/html/images/login/login.jpg");  */
+    background: url("https://picsum.photos/1920/1050?random=2"); 
+    display: flex;
+  }
+  
+  .login .loginContainer {
+    padding: 35px;
+    margin:auto;
+    width: 100%;
+    max-width: 500px;
+    min-height: 0px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(
+      ellipse at left bottom,
+      rgba(0, 0, 0, 0.712) 0%,
+      rgba(3, 3, 3, 0.959) 59%,
+      rgba(6, 7, 7, 0.9) 100%
+    );
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  
+   h1 {
+    color:rgb(228, 219, 207);
+    text-align: center!important;
+    margin: 5px;
+    padding: 15px;
+    font-size: 2.369em;
+ }
+
+  .login .loginContainer label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .login .loginContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  .login .loginContainer .btnContainer p {
+    margin: 35px 0 0 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .login .loginContainer .btnContainer .label p  {
+    font-weight: 500px;
+    letter-spacing: 0.5px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  /* .login .loginContainer .btnContainer .custom-control-label {
+      color:aliceblue;
+      padding: 10px;
+      display: inline-block;
+      text-align: right;
+      margin-bottom: .0;
+      /* position: relative; 
+      cursor: default;
+      margin-right: 10px;
+      font-weight: normal
+  } */
+
+  
+  /* .login .btnContainer .custom-control-label::before {
+      position: absolute;
+      top: .25rem;
+      left: -1.5rem;
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      pointer-events: none;
+      content: "";
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: #dee2e6;
+    } */
+
+    /* .login .btnContainer .custom-control-label .custom-checkbox::before {
+      border-radius: .25rem;
+} */
+    
+    /* .login .btnContainer .custom-control-label::after {
+    position: absolute;
+    top: .25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+} */
+
+  /*
+   .login .loginContainer .errorMsg {
+    color: red;
+    font-size: 16px;
+  
+  } */
+  
