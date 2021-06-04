@@ -1,0 +1,92 @@
+.manage-p {
+    height: 100vh;
+    }
+    
+    .m-profile {
+        background: url("https://picsum.photos/1920/1050?random=2"); 
+         padding-top: 120px; 
+         padding-bottom: 60px; 
+    }
+    .upload_profile {
+        position: relative;
+    }
+    
+    .d-inline-block {
+        display: inline-block!important;
+    }
+    .device-margin h4 {
+        color: white;
+    }
+    .device-margin input {
+     width: 145px;
+     border: 1px solid;
+    }
+    
+    .device-margin {
+        margin-top: 15px;
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    
+    .m-profile .form-group {
+        margin-bottom: 1.2rem;
+        
+    }
+    
+    /* label {
+        color:white;
+        font-weight: normal;
+        display: inline-block;
+        margin-bottom: .5rem;
+    } */
+    
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    
+    .flex-md-row {
+        flex-direction: row!important;
+    }
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .container label {
+        max-width: 95px;
+        color:white;
+        font-weight: normal;
+        display: inline-block;
+        margin-bottom: .5rem;
+        
+    }
+    .container input {
+        width: 85px;
+    }
+    
+    .align-items-center .btn-hover {
+        padding: 12px 24px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        
+    }
+    
+    .btn-hover {
+        /* background: var(--iq-primary-hover); */
+        border: 1px solid var(--iq-primary-hover);
+        color: var(--iq-white);
+        transition: color 0.3s ease;
+        display: inline-block;
+        vertical-align: middle;
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    

@@ -236,18 +236,18 @@ export const Header = () => {
                   aria-labelledby="navbarScrollingDropdown"
                 >
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/ManageProfile">
                       Manage Profile
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/Settings">
                       Settings
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Pricing Plan
+                    <a class="dropdown-item" href="/Signin">
+                     Login
                     </a>
                   </li>
                   <li>
