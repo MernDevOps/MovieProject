@@ -11,12 +11,12 @@
 }
 
 .contact-us-header {
-	height: 153px;
+	height: 93px;
 	background-color: rgb(229, 9, 20);
 	text-align: center;
 	width: 100%;
-	padding-top: 50px;
-	margin-top: 50px;
+	padding-top: 30px;
+	margin-top: 0px;
 }
 
 .contact-us-title {
@@ -55,7 +55,7 @@
 	font-size: 18px;
 	line-height: 20px;
 	color: rgb(229, 9, 20);
-	background-color: #fff;
+	background-color: rgb(19, 19, 19);
 	border-radius: 5px;
 }
 
