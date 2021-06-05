@@ -12,7 +12,7 @@ export const Parallax = () => {
             alt="..."
             style={{
               backgroundImage: `url(
-                "https://images2.alphacoders.com/851/thumb-1920-85182.jpg"
+                "http://iqonic.design/themes/streamitnew/frontend/html/images/parallax/p1.jpg"
               )`,              
             }}
           ></div>
@@ -76,7 +76,7 @@ export const Parallax = () => {
                 <div class="parallax-img">
                   <a href="movie-details.html">
                     <img
-                      src="https://images2.alphacoders.com/851/thumb-1920-85182.jpg"
+                      src="http://iqonic.design/themes/streamitnew/frontend/html/images/parallax/p1.jpg"
                       class="img-fluid w-100"
                       alt="bailey"
                     />
