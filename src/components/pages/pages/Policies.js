@@ -4,6 +4,14 @@ import '../../../css/Policies.css';
 const Policies = () => {
 	return (
 		<div className="policies">
+			<div
+        class="iq-breadcrumb-one  iq-bg-over iq-over-dark-50"
+        style={{
+          backgroundImage: `url(
+				"https://vinzator.com/movieProject/pp.jpg"
+			)`,
+        }}
+      ></div>
 			<div className="policies-header">
 				<span className="policies-title">Privacy & Cookie Policies</span>
 			</div>

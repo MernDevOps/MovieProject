@@ -8,7 +8,7 @@ export default function About() {
         class="iq-breadcrumb-one  iq-bg-over iq-over-dark-50"
         style={{
           backgroundImage: `url(
-				"https://st2.depositphotos.com/3591429/6006/i/950/depositphotos_60063963-stock-photo-people-discussing-about-us.jpg"
+				"https://vinzator.com/movieProject/aboutUs.jpg"
 			)`,
         }}
       >

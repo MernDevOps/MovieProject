@@ -9,7 +9,7 @@ const ContactUs = () => {
         class="iq-breadcrumb-one  iq-bg-over iq-over-dark-50"
         style={{
           backgroundImage: `url(
-				"https://rkdanismanlik.com.tr/wp-content/uploads/2018/07/contact-us.jpg"
+				"https://vinzator.com/movieProject/contact-us.jpg"
 			)`,
         }}
       >
