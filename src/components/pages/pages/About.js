@@ -3,7 +3,33 @@ import '../../../css/About.css';
 
 export default function About() {
   return (
-    <div className="body">   
+    <div className="body">  
+    <div
+        class="iq-breadcrumb-one  iq-bg-over iq-over-dark-50"
+        style={{
+          backgroundImage: `url(
+				"https://vinzator.com/movieProject/aboutUs.jpg"
+			)`,
+        }}
+      >
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-sm-12">
+              <nav class="text-center ">
+                <h2 class="faq-title">About Us</h2>
+                <ol>
+                  <li class="faq-title-home ">
+                    <a href="/">Home - </a>
+                  </li>
+                  <li class="faq-title-home ">
+                    <a href="/AboutUs"> - About Us </a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div className="about-header">
       <span className="aboutus-title">About Us</span>

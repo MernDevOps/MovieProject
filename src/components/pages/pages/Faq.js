@@ -9,7 +9,7 @@ const Faq = () => {
         class="iq-breadcrumb-one  iq-bg-over iq-over-dark-50"
         style={{
           backgroundImage: `url(
-				"https://media.istockphoto.com/illustrations/faq-special-blue-banner-background-illustration-id1017117266"
+				"https://vinzator.com/movieProject/faq.jpg"
 			)`,
         }}
       >
