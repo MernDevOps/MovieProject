@@ -1,0 +1,22 @@
+.container .row .sign-user_card{
+    margin:auto;
+    background: radial-gradient(
+        ellipse at left bottom,
+        rgba(0, 0, 0, 0.712) 0%,
+        rgba(3, 3, 3, 0.959) 59%,
+        rgba(6, 7, 7, 0.9) 100%
+      );
+      box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.container .row .sign-user_card h4{
+  color:white;
+}
+
+.container .row .sign-user_card p{
+    color:white;
+  }
+
+  .container .row .sign-user_card .setting .a  {
+    color:red;
+  }
