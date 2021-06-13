@@ -2,6 +2,8 @@ import React from "react";
 import "./Slider.css";
 
 import { FaStar, FaStarHalf } from "react-icons/fa";
+import Polygon from "react-polygon";
+import { IoMdPlay } from "react-icons/io";
 
 export const Slider = () => {
   return (
@@ -44,6 +46,20 @@ export const Slider = () => {
             }}
           ></div>
           <div class="carousel-caption d-block">
+            <a href="javascript:void(0);" tabindex="0">
+              <div
+                class="channel-logo fadeInLeft animated"
+                data-animation-in="fadeInLeft"
+                data-delay-in="0.5"
+                style={{ opacity: "1 animation-delay: 0.5s" }}
+              >
+                <img
+                  src="https://vinzator.com/movieProject/logo1.png"
+                  class="c-logo"
+                  alt="streamit"
+                />
+              </div>
+            </a>
             <h5
               className="animated fadeInLeft"
               style={{ animationDelay: 0.6 + "s" }}
@@ -108,6 +124,46 @@ export const Slider = () => {
               </a>
               <a href="" className="more-details">
                 More Details
+              </a>
+              <a
+                href="video/trailer.mp4"
+                class="video-open playBut"
+                tabindex="0"
+              >
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="80px"
+                  height="80px"
+                  viewBox="0 0 213.7 213.7"
+                  enable-background="new 0 0 213.7 213.7"
+                  xmlSpace="preserve"
+                >
+                  <polygon
+                    class="triangle"
+                    fill="none"
+                    stroke-width="7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                    points="73.5,62.5 148.5,105.8 73.5,149.1 "
+                  ></polygon>
+                  <circle
+                    class="circle"
+                    fill="none"
+                    stroke-width="7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                    cx="106.8"
+                    cy="106.8"
+                    r="103.3"
+                  ></circle>
+                </svg>
+                <span class="w-trailor">Watch Trailer</span>
               </a>
             </div>
           </div>

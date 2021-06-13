@@ -13,10 +13,14 @@ import "./Header.css";
 export const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-dark  navbar-expand-lg justify-content-center fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-lg justify-content-center fixed-top">
         <div class="container">
           <a href="/" class="navbar-brand d-flex w-50 me-auto">
-            Movied
+            <img
+              class="header-img-fluid logo"
+              src="images/logo1.png"
+              alt="Kamera Aşçısı / Camera Cook"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -45,7 +49,7 @@ export const Header = () => {
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link "
                   href="#"
                   id="navbarScrollingDropdown"
                   role="button"
@@ -58,29 +62,40 @@ export const Header = () => {
                   class="dropdown-menu dropdown-menu-left dropdown-menu-dark"
                   aria-labelledby="navbarScrollingDropdown"
                 >
-                  <li>
-                    <a class="dropdown-item" href="#">
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
+                    <a class="dropdown-item" href="/About">
                       About Us
                     </a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
+                    <a class="dropdown-item" href="/ContactUs">
                       Contact
                     </a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
+                    <a class="dropdown-item" href="/Faq">
                       FAQ
                     </a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
+                    <a class="dropdown-item" href="/Policies">
                       Privacy-Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Pricing
                     </a>
                   </li>
                 </ul>
@@ -96,7 +111,7 @@ export const Header = () => {
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link"
                   href="#"
                   id="navbarScrollingDropdown"
                   role="button"
@@ -123,18 +138,32 @@ export const Header = () => {
                   </form>
                 </div>
               </li>
-              <li class="nav-item">
+              <li class="nav-item " style={{ marginTop: "10px" }}>
                 <a
-                  class="nav-link dropdown-toggle"
+                  // class="nav-link dropdown-toggle"
                   href="#"
+                  class="search-toggle nav-link "
+                  data-toggle="search-toggle"
                   id="navbarScrollingDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <FaBell />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="22"
+                    height="22"
+                    class="noti-svg "
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M18 10a6 6 0 1 0-12 0v8h12v-8zm2 8.667l.4.533a.5.5 0 0 1-.4.8H4a.5.5 0 0 1-.4-.8l.4-.533V10a8 8 0 1 1 16 0v8.667zM9.5 21h5a2.5 2.5 0 1 1-5 0z"
+                      fill="#D1D0CF"
+                    ></path>
+                  </svg>
+                  <span class="bg-danger dots "></span>
                 </a>
-
                 <ul
                   class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-bell animated fadeInUp "
                   aria-labelledby="navbarScrollingDropdown"
@@ -221,7 +250,7 @@ export const Header = () => {
               </li>
               <li class="nav-item dropdown ">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link "
                   href="#"
                   id="navbarScrollingDropdown"
                   role="button"
@@ -238,25 +267,39 @@ export const Header = () => {
                   class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-avatar"
                   aria-labelledby="navbarScrollingDropdown"
                 >
-                  <li>
-                    <a class="dropdown-item" href="#">
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
+                    <a class="dropdown-item" href="/ManageProfile">
                       Manage Profile
                     </a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
+                    <a class="dropdown-item" href="/Settings">
                       Settings
                     </a>
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Pricing Plan
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
+                    <a class="dropdown-item" href="/Signin">
+                      Login
                     </a>
                   </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
+
+                  <li
+                    class="channel-logo fadeInLeft animated"
+                    data-animation-in="fadeInLeft"
+                    data-delay-in="0.5"
+                  >
                     <a class="dropdown-item" href="#">
                       Logout
                     </a>
