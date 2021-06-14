@@ -8,8 +8,8 @@ import {
 	
 } from 'react-icons/ai';
 import {
-	BiArrowToTop
-} from 'react-icons/bi';
+	IoIosArrowUp
+} from 'react-icons/io';
 
 const Footer = () => {
 	const [placeHolder, setPlaceHolder] = useState(
@@ -102,7 +102,7 @@ const Footer = () => {
 							<a href="/pricing">Pricing</a>
 						</li>
 						<li>2021 &copy; MernBrothers</li>
-						<li><a class="top" href="#top"><BiArrowToTop/></a></li>
+						<li><a class="top" href="#top"><IoIosArrowUp/></a></li>
 					</ul>
 				</nav>
 			</div>

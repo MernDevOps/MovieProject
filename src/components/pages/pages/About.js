@@ -1,14 +1,16 @@
-import React from 'react'
-import '../../../css/About.css';
+import React from "react";
+import "../../../css/About.css";
 
 export default function About() {
   return (
-    <div className="body">  
-    <div
+
+    <div class="developers ">
+
+      <div
         class="iq-breadcrumb-one  iq-bg-over iq-over-dark-50"
         style={{
           backgroundImage: `url(
-				"https://vinzator.com/movieProject/aboutUs.jpg"
+				"https://vinzator.com/movieProject/images/about-us/01.jpg"
 			)`,
         }}
       >
@@ -30,57 +32,259 @@ export default function About() {
           </div>
         </div>
       </div>
+     
+            <div class="container ">
+               <div class="row">
+                  <div class="col-lg-12 col-sm-12 mb-sm-4">
 
-    <div className="about-header">
-      <span className="aboutus-title">About Us</span>
+                     <div class="text-center iq-title-box iq-title-default">
+                        <h2 class="iq-title text-capitalize">
+                           Masterminds team
+                        </h2>
+                        <p class="iq-title-desc">Your Streamit is build by one of the best and well experienced web developers and an <br/>awarded Envato Elite Author.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="container-md container-fluid ">
+
+                     <div class="row about-us-detail ">
+                        <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                              <img class="developersbox img-fluid attachment-large size-large" src="https://vinzator.com/movieProject/images/about-us/02.jpg"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">ceo</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">Hasan KACA</h4>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                           <img class="developersbox img-fluid attachment-large size-large" src="https://vinzator.com/movieProject/images/about-us/03.jpg"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">Designer</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">David FISH</h4>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                            <img class="developersbox img-fluid attachment-large size-large" src="https://vinzator.com/movieProject/images/about-us/04.jpg"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">Developer</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">Murat NIYAZOV</h4>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                           <img class="developersbox img-fluid attachment-large size-large" src="https://vinzator.com/movieProject/images/about-us/05.jpg"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">Designer</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">Enesh ORAZOVA</h4>
+                              </div>
+                           </div>
+                        </div>
+
+                        {/* <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                           <img class="developersbox" src="https://picsum.photos/200"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">Designer</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">Monty Rock</h4>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                           <img class="developersbox" src="https://picsum.photos/200"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">Designer</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">Monty Rock</h4>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                           <img class="developersbox" src="https://picsum.photos/200"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">Designer</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">Monty Rock</h4>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                           <div class="image-box">
+                           <img class="developersbox" src="https://picsum.photos/200"></img>
+                           </div>
+
+                           <div class="icon-box-content">
+                              <div class="widget-container">
+                                 <p class="heading-title size-default">Designer</p>		
+                              </div>
+                              <div class="widget-container">
+                                 <h4 class="heading-title size-default">Monty Rock</h4>
+                              </div>
+                           </div>
+                        </div>
+                         */}
+                     </div>
+            </div>                  
+         
+
+         <div class="container-fluid p-0">
+            <div class="map-container" >
+
+               <div class="container">
+                  <div class="row about-us-row text-center align-items-center">
+                     <div class="col-md-6">
+                        <div class="text-center">
+                        <img class="developersbox img-fluid attachment-large size-large" src="https://vinzator.com/movieProject/images/about-us/06.jpg"></img>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class=" text-left iq-title-box iq-title-default">
+                           <h2 class="iq-title">
+                              Contact Us Here
+                           </h2>                        
+                           <p class="iq-title-desc">Streamit is located in Los Angeles city and you can contact us at <a href="#">hello@streamit.com</a> for any tech-related support and assistance. We love to hear from our Streamit users.</p>
+                           
+                           <div class="row mt-2">
+                              <div class="col-md-4">
+                                 <div class="counter">                                 
+                                    <span class="counter-number" data-duration="2000" data-to-value="4" data-from-value="0" data-delimiter=",">4</span>
+                                 </div>
+                                 <div class="counter-title">Branch</div>
+                              </div>
+   
+                              <div class="col-md-4">
+                                 <div class="iq-contact-list" data-element_type="column">
+                                 <div class="counter">                                 
+                                    <span class="counter-number" data-duration="2000" data-to-value="4" data-from-value="0" data-delimiter=",">
+                                       500+
+                                    </span>
+                                 </div>
+                                 <div class="counter-title">Employee</div>
+                                 </div>
+                              </div>
+                              
+                              <div class="col-md-4">
+                                 <div class="iq-contact-list" data-element_type="column">
+                                 <div class="counter">                                 
+                                    <span class="counter-number" data-duration="2000" data-to-value="4" data-from-value="0" data-delimiter=",">
+                                       1,000+
+                                    </span>
+                                 </div>
+                                 <div class="counter-title">Clients</div>
+                                 </div>
+                              </div>
+   
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>               
+            </div>
+         </div>
+
+         <div class="container-fluid">
+            <div class="svg-header">
+               <div class="svg-mini-header">
+                  <div class="text-center iq-title-box iq-title-default">
+                     <h2 class="iq-title">
+                        Work With the Best	
+                     </h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row text-center d-flex justify-content-center">
+               <div class="col-sm-2 ">
+                  <div class="image-box">
+                  <img class="svgbox" src="https://vinzator.com/movieProject/abouth/svgexport-3.svg"></img>
+                  </div>
+               </div>
+
+               <div class="col-sm-2">
+                  <div class="image-box">
+                  <img class="svgbox" src="https://vinzator.com/movieProject/abouth/svgexport-4.svg"></img>
+                  </div>
+               </div>
+
+               <div class="col-sm-2">
+                  <div class="image-box">
+                  <img class="svgbox" src="https://vinzator.com/movieProject/abouth/svgexport-5.svg"></img>
+                  </div>
+               </div>
+
+               <div class="col-sm-2">
+                  <div class="image-box">
+                  <img class="svgbox" src="https://vinzator.com/movieProject/abouth/svgexport-6.svg"></img>
+                  </div>
+               </div>
+
+               <div class="col-sm-2">
+                  <div class="image-box">
+                  <img class="svgbox" src="https://vinzator.com/movieProject/abouth/svgexport-7.svg"></img>
+                  </div>
+               </div>
+               
+            </div>
+            
+         </div>
+
+
+      
+
+
+      
+
+
+
+    
     </div>
-    <div className="aboutus-content">
-      <div>
-        <h2 className="aboutus-content-title">
-        es sem sagittis at. Morbi justo orci, fermentum vitae
-          blandit ac, efficitur sit amet
-        </h2>
-      </div>
-      <div className="aboutus-content-text-container">
-        <p className="aboutus-content-text">
-           lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Fusce id odio quis sem euismod eleifend quis eu lacus.
-          Quisque quis lacinia magna. Vivamus ornare libero magna, eget
-          sodales sem sagittis at. Morbi justo orci, fermentum vitae
-          blandit ac, efficitur sit amet augue. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Suspendisse ac nisi sem. Etiam congue massa a ipsum
-          iaculis vestibulum. Suspendisse sodales, elit quis imperdiet
-          ullamcorper, velit nisi suscipit augue, eget faucibus massa
-          lacus vitae mi. Vestibulum condimentum, justo nec tempus
-          viverra, neque metus laoreet elit, a consequat risus velit ut
-          erat.
-        </p>
-        <p className="aboutus-content-text">
-          Nunc in auctor ligula. Sed eget suscipit arcu. Mauris nec
-          lorem est. Phasellus a dapibus mi. Suspendisse ultricies urna
-          vitae orci volutpat, eu consequat nibh condimentum. In hac
-          habitasse platea dictumst. Quisque ultricies nibh eu nulla
-          interdum finibus. Fusce euismod odio vitae eros dignissim, vel
-          bibendum ante lacinia. Duis imperdiet eget enim quis
-          vestibulum. Suspendisse rutrum, odio id dignissim semper, odio
-          risus varius augue, eu mollis quam libero nec purus. Integer
-          pellentesque id elit condimentum commodo. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Quisque aliquam blandit elit a venenatis.
-        </p>
-      </div>
-    </div>
-    <div className="btn-search-compare-container">
-      <a href="/">
-        <button
-          className="btn-search-compare"
-          onClick={() => window.scroll(0, 0)}
-        >
-          Search and Compare
-        </button>
-      </a>
-    </div>
-  </div>
-  )
+  );
 }

@@ -72,7 +72,7 @@ const ContactUs = () => {
               <BiEnvelope style={{ fill: "white" }} />
               <span className="contact-us-side-bar-contact-details">
                 <a
-                  href="mailto:hello@unilive.co.uk"
+                  href="mailto:hello@cameracook.com"
                   target="_blank"
                   rel="noreferrer"
                 >
