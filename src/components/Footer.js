@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import '../css/Footer.css';
+import { FaStar, FaStarHalf } from "react-icons/fa";
+
 import {
 	AiOutlineFacebook,
 	AiOutlineInstagram,
 	AiFillTwitterCircle,
-	
-	
 } from 'react-icons/ai';
 import {
 	IoIosArrowUp
@@ -31,84 +31,73 @@ const Footer = () => {
 
 	return (
 		<div>
-			<div className="keepintouch-sm">
-				<div id="keepintouch">
-					<h1 className="footer-title">Keep In Touch</h1>
-					{placeHolder === 'Enter your email address...' ? (
-						<form id="form-keepintouch" onSubmit={keepInTouch}>
-							<input
-								id="input-keepintouch"
-								type="email"
-								placeholder={placeHolder}
-								onChange={handleEmail}
-								value={email}
-							/>
-						</form>
-					) : (
-						<form id="form-keepintouch" onSubmit={keepInTouch}>
-							<input
-								id="input-keepintouch-saved"
-								type="email"
-								placeholder={placeHolder}
-								onChange={handleEmail}
-								value={email}
-							/>
-						</form>
-					)}
-				</div>
-				<div id="social-media">
-					<h1 className="footer-title">Let's Socialize</h1>
-					<div className="sm-icons">
-						<a
-							href="https://www.facebook.com/"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<AiOutlineFacebook className="footer-sm-icon" />
-						</a>
-						<a
-							href="https://www.instagram.com/"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<AiOutlineInstagram className="footer-sm-icon" />
-						</a>
-						<a
-							href="https://twitter.com/home"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<AiFillTwitterCircle className="footer-sm-icon" />
-						</a>
-					</div>
-				</div>
-			</div>
-			<div id="nav-footer">
-				<nav>
-					<ul>
-						<li>
-							<a href="/aboutus">About Us</a>
-						</li>
-						<li>
-							<a href="/contact">Contact</a>
-						</li>
-						<li>
-							<a href="/faq">FAQ</a>
-						</li>
-						<li>
-							<a href="/policies">Privacy & Policies</a>
-						</li>
-						<li>
-							<a href="/pricing">Pricing</a>
-						</li>
-						<li>2021 &copy; MernBrothers</li>
-						<li><a class="top" href="#top"><IoIosArrowUp/></a></li>
-					</ul>
-				</nav>
-			</div>
+		<footer id="contact" class="footer-one iq-bg-dark">
+     
+		 {/* <!-- Address --> */}
+		 <div >
+				 <div class="footer-top container-fluid">
+						 <div class="row-footer footer-standard">
+								 <div class="col-lg-7">
+										 <div class="widget text-left">
+												 <div class="menu-footer-link-1-container">
+														 <ul id="menu-footer-link-1" class="menu p-0">
+																 <li id="menu-item-7314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7314">
+																		 <a href="#">Terms Of Use</a>
+																 </li>
+																 <li id="menu-item-7316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7316">
+																		 <a href="../html/privacy-policy.html">Privacy-Policy</a>
+																 </li>
+																 <li id="menu-item-7118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7118">
+																		<a href="../html/faq.html">FAQ</a>
+																</li>
+																 <li id="menu-item-7118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7118">
+																		 <a href="../html/watch-video.html">Watch List</a>
+																 </li>
+														 </ul>
+												 </div>
+										 </div>
+										 <div class="widget text-left">			
+												 <div class="textwidget">
+														 <p><small>© 2021 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved. © 2021 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved.</small></p>
+												 </div>
+										 </div>                        
+								 </div>
+								 <div class="col-lg-2 col-md-6 mt-4 mt-lg-0">
+										 <h6 class="footer-link-title">
+												 Follow Us :
+										 </h6>
+										 <ul class="info-share"> 
+												 <li><a  target="_blank" href="#"><i class="icon-hover fa fa-facebook"></i></a></li>
+												 <li><a  target="_blank" href="#"><i class="icon-hover fa fa-twitter"></i></a></li>
+												 <li><a  target="_blank" href="#"><i class="icon-hover fa fa-google-plus"></i></a></li>
+												 <li><a  target="_blank" href="#"><i class="icon-hover fa fa-github"></i></a></li>
+												
+                             
+                           
+										 </ul>
+
+								 </div>
+								 <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+										 <div class="widget text-left">
+												 <div class="textwidget">
+														 <h6 class="footer-link-title">Streamit App</h6>
+														 <div class="d-flex align-items-center">
+																 <a class="app-image" href="#">
+																		 <img src="https://vinzator.com/movieProject/images/footer/01.jpg" alt="play-store"/>
+																 </a>
+																 <a class="ml-3 app-image" href="#"><img src="https://vinzator.com/movieProject/images/footer/02.jpg" alt="app-store"/></a>
+														 </div>
+												 </div>
+										 </div>
+								 </div>
+						 </div>
+				 </div>
+		 </div>
+		 <li><a class="top" href="#top"><IoIosArrowUp/></a></li>
+		 {/* <!-- Address END --> */}
+ </footer>
 		</div>
 	);
-
 };
 
 export default Footer;

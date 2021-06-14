@@ -1,5 +1,9 @@
 import React from "react";
 import "../../../css/Faq.css";
+import {
+	IoIosArrowForward
+} from 'react-icons/io';
+
 
 
 const Faq = () => {
@@ -9,7 +13,7 @@ const Faq = () => {
         class="iq-breadcrumb-one  iq-bg-over iq-over-dark-50"
         style={{
           backgroundImage: `url(
-				"https://vinzator.com/movieProject/faq.jpg"
+				"https://media.istockphoto.com/illustrations/faq-special-blue-banner-background-illustration-id1017117266"
 			)`,
         }}
       >
@@ -20,10 +24,11 @@ const Faq = () => {
                 <h2 class="faq-title">FAQ</h2>
                 <ol>
                   <li class="faq-title-home ">
-                    <a href="/">Home - </a>
+                    <a href="/">Home </a>
                   </li>
+                  <li><a class="arrowforward" href="#top"><IoIosArrowForward/></a></li>
                   <li class="faq-title-home ">
-                    <a href="/faq">- faq </a>
+                    <a href="/faq">FAQ</a>
                   </li>
                 </ol>
               </nav>
@@ -40,11 +45,9 @@ const Faq = () => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
-              aria-controls="flush-collapseOne"
-              
+                       
             >
-              What is NetBaba.Net ?
+              What is CineTrail?
             </button>
           </h2>
           <div

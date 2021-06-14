@@ -1,6 +1,9 @@
 import React from "react";
 import "../../../css/ContactUs.css";
 import { BiEnvelope, BiPhoneCall } from "react-icons/bi";
+import {
+	IoIosArrowForward
+} from 'react-icons/io';
 
 const ContactUs = () => {
   return (
@@ -20,10 +23,11 @@ const ContactUs = () => {
                 <h2 class="faq-title">Contact Us</h2>
                 <ol>
                   <li class="faq-title-home ">
-                    <a href="/">Home - </a>
+                    <a href="/">Home</a>
                   </li>
+                  <li><a class="arrowforward" href="#top"><IoIosArrowForward/></a></li>
                   <li class="faq-title-home ">
-                    <a href="/ContactUs"> - Contact Us </a>
+                    <a href="/ContactUs">Contact Us </a>
                   </li>
                 </ol>
               </nav>
