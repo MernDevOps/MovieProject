@@ -1,8 +1,9 @@
 body{
 	font-family: Roboto, sans-serif !important;
+
 }
 .accordion-item {
-	background-color: #191919;;	
+	background-color: #141414;	
    border-bottom: 0.5px;
 	 	 }
 
@@ -79,7 +80,7 @@ body{
   .accordion-button:after{	
 			background-color: rgb(229,9,20) ;
 			text-align: center ;
-			height:55px;
+			height:48px;
       width: 55px;
 			vertical-align: middle;
 			right: 35px;

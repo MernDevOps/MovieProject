@@ -18,7 +18,7 @@ const Faq = () => {
         }}
       >
         <div class="container-fluid">
-          <div class="row align-items-center">
+          <div class=" align-items-center">
             <div class="col-sm-12">
               <nav class="text-center ">
                 <h2 class="faq-title">FAQ</h2>

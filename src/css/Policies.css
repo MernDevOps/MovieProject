@@ -1,6 +1,63 @@
+.iq-breadcrumb-one {
+    display: block;
+    padding: 150px 0 80px;
+    z-index: 9;
+    position: relative;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+h4{
+	color: white;
+	display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	font-size: 1.777em;
+}
+p {
+	color: #d1d0cf !important;
+    margin-top:0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}	
+.site-main {
+	background-color: #141414 !important;
+    padding: 100px 0;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+
 .policies {
 	background-color: black;
 }
+
 .policies-header {
 	height: 153px;
 	background-color: rgb(229,9,20);

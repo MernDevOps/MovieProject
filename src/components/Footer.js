@@ -12,25 +12,11 @@ import {
 } from 'react-icons/io';
 
 const Footer = () => {
-	const [placeHolder, setPlaceHolder] = useState(
-		'Enter your email address...',
-	);
-	const [email, setEmail] = useState('');
 
-	const handleEmail = (e) => {
-		setEmail(e.target.value);
-	};
-
-	const keepInTouch = (e) => {
-		e.preventDefault();
-		if (email !== '') {
-			setEmail('');
-			setPlaceHolder('Your email address is saved...');
-		}
-	};
 
 	return (
-		<div>
+		<div class="footer-top">
+		<div >
 		<footer id="contact" class="footer-one iq-bg-dark">
      
 		 {/* <!-- Address --> */}
@@ -58,7 +44,7 @@ const Footer = () => {
 										 </div>
 										 <div class="widget text-left">			
 												 <div class="textwidget">
-														 <p><small>© 2021 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved. © 2021 STREAMIT. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited. All rights reserved.</small></p>
+														 <p><small>© 2021 CINETRAIL. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, XPRSOFT Duplication and copy of this is strictly prohibited. All rights reserved. </small></p>
 												 </div>
 										 </div>                        
 								 </div>
@@ -80,7 +66,7 @@ const Footer = () => {
 								 <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
 										 <div class="widget text-left">
 												 <div class="textwidget">
-														 <h6 class="footer-link-title">Streamit App</h6>
+														 <h6 class="footer-link-title">Cinetrail App</h6>
 														 <div class="d-flex align-items-center">
 																 <a class="app-image" href="#">
 																		 <img src="https://vinzator.com/movieProject/images/footer/01.jpg" alt="play-store"/>
@@ -96,6 +82,7 @@ const Footer = () => {
 		 <li><a class="top" href="#top"><IoIosArrowUp/></a></li>
 		 {/* <!-- Address END --> */}
  </footer>
+		</div>
 		</div>
 	);
 };

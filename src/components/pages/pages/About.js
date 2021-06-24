@@ -15,7 +15,7 @@ export default function About() {
         }}
       >
         <div class="container-fluid">
-          <div class="row align-items-center">
+          <div class=" align-items-center">
             <div class="col-sm-12">
               <nav class="text-center ">
                 <h2 class="faq-title">About Us</h2>
@@ -60,7 +60,7 @@ export default function About() {
                                  <p class="heading-title size-default">ceo</p>		
                               </div>
                               <div class="widget-container">
-                                 <h4 class="heading-title size-default">Hasan KACA</h4>
+                                 <h4 class="heading-title size-default">Hasan SAFE</h4>
                               </div>
                            </div>
                         </div>
