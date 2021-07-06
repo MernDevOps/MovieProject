@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../css/MovieSlider.css';
+import '../css/TopTen.css';
 import {IoMdPlay } from "react-icons/io";
 import {RiShareFill ,RiLinksFill,RiFacebookFill} from "react-icons/ri";
 import {AiFillHeart} from "react-icons/ai";
 import {BsPlus} from "react-icons/bs"; 
  import {VscTwitter} from "react-icons/vsc";
  
-export default class MovieSlider extends Component {
+export default class TopTen extends Component {
   render() {
     var settings = {
       dots: false,
@@ -59,14 +59,6 @@ export default class MovieSlider extends Component {
             initialSlide: 1
           }
         },
-        {
-          breakpoint: 400,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1
-          }
-        },
          {
           breakpoint: 375,
           settings: {
@@ -78,23 +70,23 @@ export default class MovieSlider extends Component {
       ]
     };
     return (
-<div className="main-contens-fav">
+<div className="main-contens-topten">
 
-<div className="favourite-contens">
+<div className="topten-contens">
 
 <div className="iq-lts-header d-flex align-items-center justify-content-between">
-<h3 className="main-title">Latest Movies</h3>
+<h3 className="main-title">Top 10</h3>
 <a className="iq-view-all" href="#">View All</a>
 </div>
      
      <Slider {...settings}>
   
-  <div className="bg-img">
+  <div className=" bg-img">
 
 
-<img   class="img-fluid" src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"/>
+<img   class="img-fluid  " src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg"></img>
 
-<div className="container latest_card_container">
+<div className="container topten_card_container">
 <div className="block-description">
 
 <h6 >
@@ -139,9 +131,9 @@ PLAY NOW
 
 
   <div className="bg-img">
-<img   class="img-fluid" src="	http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/03.jpg"/>
+<img   class="img-fluid" src="	http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/03.jpg"></img>
 
-<div className="container latest_card_container">
+<div className="container topten_card_container">
 <div className="block-description">
 
 <h6 >
@@ -186,9 +178,9 @@ PLAY NOW
 <div className="bg-img">
 
 
-<img   class="img-fluid" src="http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/04.png"/>
+<img   class="img-fluid" src="http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/04.png"></img>
 
-<div className="container latest_card_container">
+<div className="container topten_card_container">
 <div className="block-description">
 
 <h6 >
@@ -236,7 +228,7 @@ PLAY NOW
 
 <img  class="img-fluid" src="http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/01.jpg"></img>
 
-<div className="container latest_card_container">
+<div className="container topten_card_container">
 <div className="block-description">
 
 <h6 >
@@ -284,7 +276,7 @@ PLAY NOW
 
 <img   class="img-fluid" src="http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/02.jpg"></img>
 
-<div className="container latest_card_container">
+<div className="container topten_card_container">
 <div className="block-description">
 
 <h6 >

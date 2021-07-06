@@ -1,18 +1,17 @@
-.bg-img{
+.bg-img-up{
     height: 165px;
     width: 290px;
     margin: 0px 0px;
-    /* background-size: 100%; */
    }
-   
 
-  .bg-img>img{
+
+  .bg-img-up>img{
     height: 165px;
     width: 290px;  
     overflow: hidden; 
   }
  
-  .bg-img:hover {
+  .bg-img-up:hover {
     transform: scale(1.06);
     position: relative;
     border-left: 5px solid red !important;
@@ -20,24 +19,24 @@
   }
 
 
-
-.bg-img:hover .block-social-info{
+.bg-img-up:hover .block-social-info-up{
     display: block;
   }
 
+  
   /* for-background-img-top-setting*/
   .slick-list {
-    padding: 6px 0 ;
-    margin: -100px 0 ;
+    padding: 6px 0;
+     margin: -100px 0;
   }
-
-.latest_card_container{
+ 
+.up_card_container{
     display:flex;
     margin-top: -160px;
 }
 
   
-    .block-description{
+    .block-description-up{
       padding-top: 25px;
       padding-left: 26px;
     }
@@ -56,7 +55,7 @@
   background-color:rgb(230, 55, 55)  !important;
   }
   
-  .iq-view-all {
+  .iq-up-view-all {
     color:rgb(201, 200, 197);
     margin-top: 0px;
     padding:0px;
@@ -64,34 +63,38 @@
     transition-duration: 1s;
   }
   
-  .iq-view-all:hover {
+  .iq-up-view-all:hover {
   color:red;
   }
   
-  .main-title{
+  .up-title{
     color:white;
     margin-bottom: 20px;
     margin-top: 40px;
   }
  
-  .main-contens-fav{
+  .up-main-contens{
     background-color: rgb(22, 22, 22);
-    
+      
   }
   
-  .favourite-contens{
+  .upcoming-contens{
     margin-left: 100px;
-    margin-right: 100px;
-    height: 280px;
-  }
+    margin-right: 100px; 
+    height: 300px;
+     } 
 
-  .iq-title{
+  .slick-track{
+    height: 170px !important;
+  }
+ 
+  .iq-title-up{
     color:rgba(255, 255, 255, 0.89);
     transition-duration: 1s;
     text-decoration: none !important;
   }
   
-  .iq-title:hover{
+  .iq-title-up:hover{
     color:red;
     
   }
@@ -113,7 +116,7 @@
     background-color: rgba(0, 0, 0, 0.486);
   }
 
-  .block-social-info{
+  .block-social-info-up{
     padding-left: 50px;
     line-height:2.2 ;
     display: none;
@@ -199,27 +202,16 @@
     right: 20px;
     
   }
-
-
-
-  .slick-track{
-    /* display: flex !important; */
-    height: 200px !important ;
-    
-  }
-
-
- /*set space between slides */
+  
   .slick-slide {
       margin: 0 8px;
-    }
-  .slick-list {
-      margin: 0 -8px;
-      /* sliderler arasinda sorun gidermek icin :view all tiklanmak icin, */
-      height: 200px !important;
-      
   }
 
+  .slick-list {
+      margin: 0 -8px;
+      height: 170px;
+  }
+ 
 
   .slick-prev {
      left:-3px;
@@ -253,8 +245,4 @@
   .share-ico{
     margin:5px;
   }
-
  
-  @media screen and (min-width: 480px) {
-   
-  }

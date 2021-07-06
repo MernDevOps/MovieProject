@@ -2,9 +2,8 @@
     height: 165px;
     width: 290px;
     margin: 0px 0px;
-    /* background-size: 100%; */
    }
-   
+
 
   .bg-img>img{
     height: 165px;
@@ -17,26 +16,29 @@
     position: relative;
     border-left: 5px solid red !important;
     transition-duration: 0.3s;
+   
   }
-
 
 
 .bg-img:hover .block-social-info{
     display: block;
   }
 
-  /* for-background-img-top-setting*/
-  .slick-list {
+  
+   /* for-background-img-top-setting*/
+   .slick-list {
     padding: 6px 0 ;
     margin: -100px 0 ;
+
   }
 
-.latest_card_container{
-    display:flex;
-    margin-top: -160px;
-}
+ .topten_card_container{
+  display:flex;
+  margin-top: -160px;
+ }
 
-  
+
+
     .block-description{
       padding-top: 25px;
       padding-left: 26px;
@@ -74,17 +76,19 @@
     margin-top: 40px;
   }
  
-  .main-contens-fav{
+  .main-contens-topten{
     background-color: rgb(22, 22, 22);
     
   }
   
-  .favourite-contens{
+  .topten-contens{
     margin-left: 100px;
     margin-right: 100px;
     height: 280px;
   }
-
+.slick-track{
+  height: 170px !important;
+}
   .iq-title{
     color:rgba(255, 255, 255, 0.89);
     transition-duration: 1s;
@@ -200,26 +204,15 @@
     
   }
 
-
-
-  .slick-track{
-    /* display: flex !important; */
-    height: 200px !important ;
-    
-  }
-
-
  /*set space between slides */
   .slick-slide {
       margin: 0 8px;
-    }
+  }
   .slick-list {
       margin: 0 -8px;
-      /* sliderler arasinda sorun gidermek icin :view all tiklanmak icin, */
-      height: 200px !important;
-      
+      /* sliderler arasinda sorun gidermek icin */
+      height: 170px;
   }
-
 
   .slick-prev {
      left:-3px;
@@ -253,8 +246,4 @@
   .share-ico{
     margin:5px;
   }
-
- 
-  @media screen and (min-width: 480px) {
-   
-  }
+  
