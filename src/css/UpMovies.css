@@ -4,6 +4,11 @@
     margin: 0px 0px;
    }
 
+  /* for-background-img-top-setting*/
+  .slick-list {
+    padding: 6px 0;
+     margin: -100px 0;
+  }
 
   .bg-img-up>img{
     height: 165px;
@@ -23,12 +28,6 @@
     display: block;
   }
 
-  
-  /* for-background-img-top-setting*/
-  .slick-list {
-    padding: 6px 0;
-     margin: -100px 0;
-  }
  
 .up_card_container{
     display:flex;
@@ -245,4 +244,5 @@
   .share-ico{
     margin:5px;
   }
+
  

@@ -1,0 +1,37 @@
+[
+    {
+      "id":"1",
+      "image": "http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/02.jpg",
+      "filmName": "Shadow",
+      "range" : "18+",
+      "duration" : "2h 30m"
+    }, 
+    {
+      "id":"2",
+      "image": "  http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/03.jpg",
+      "filmName": "Boop Pitty",
+      "range" : "15+",
+      "duration" : "2h 30m"
+    }, 
+    {
+      "id":"3",
+      "image": "http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/04.png",
+      "filmName": "Dino Land",
+      "range" : "18+",
+      "duration" : "3 season"
+    },
+    {
+      "id":"4",
+      "image": "http://iqonic.design/themes/streamitnew/frontend/html/images/upcoming/01.jpg",
+      "filmName": "The Last Breath",
+      "range" : "15+",
+      "duration" : "2h 30m"
+    },  
+    {
+      "id":"5",
+      "image": "http://iqonic.design/themes/streamitnew/frontend/html/images/favorite/02.jpg",
+      "filmName": "Last Race",
+      "range" : "7+",
+      "duration" : "2 season"
+    }
+  ]

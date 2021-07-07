@@ -2,7 +2,6 @@
     height: 165px;
     width: 290px;
     margin: 0px 0px;
-    /* background-size: 100%; */
    }
    
 
@@ -25,6 +24,9 @@
     display: block;
   }
 
+  .position-relative {
+    position: relative!important;
+}
   /* for-background-img-top-setting*/
   .slick-list {
     padding: 6px 0 ;
@@ -245,7 +247,7 @@
   .ri{
     color:white;
     transition-duration: 0.5s;
-  }
+  } 
   .ri:hover{
     color:red;
   }
@@ -255,6 +257,3 @@
   }
 
  
-  @media screen and (min-width: 480px) {
-   
-  }

@@ -4,6 +4,12 @@
     margin: 0px 0px;
    }
 
+   /* for-background-img-top-setting*/
+  .slick-list {
+    padding: 6px 0 ;
+    margin: -100px 0 ;
+
+  }
 
   .bg-img>img{
     height: 165px;
@@ -22,14 +28,6 @@
 
 .bg-img:hover .block-social-info{
     display: block;
-  }
-
-  
-   /* for-background-img-top-setting*/
-   .slick-list {
-    padding: 6px 0 ;
-    margin: -100px 0 ;
-
   }
 
  .topten_card_container{

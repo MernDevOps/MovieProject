@@ -24,6 +24,7 @@ function App() {
       <Route path="/ContactUs" component={ContactUs}><ContactUs /> </Route>
       <Route path="/Faq" component={Faq}><Faq /> </Route>
       <Route path="/Policies" component={Policies}><Policies /> </Route>
+      
          
       </Switch>
       
